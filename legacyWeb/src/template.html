@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <base href="//template.com.br/">
+    <script data-notranspile="true">var pageStart = (new Date()).getTime()</script>
+
+    <title>Template Title</title>
+    <link rel="shortcut icon" href="assets/img/favicon/favicon.ico">
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <link rel="apple-touch-icon" href="#">
+    <link rel="mask-icon" href="assets/img/favicon.img" color="#04aa6d">
+    <link rel="manifest" href="assets/misc/webmanifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- SEO -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="//template.com.br">
+    <meta name="title" content="Template Title">
+    <meta name="description" content="Template description">
+    <meta name="keywords" content="palavras-chave, separadas, por, virgula">
+    <meta name="author" content="Nome do Autor">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="assets/misc/sitemap.xml">
+    <link rel="search" type="application/opensearchdescription+xml" title="Template Title" href="assets/misc/opensearch.xml">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "url": "https://template.com.br",
+            "name": "Template Title",
+            "description": "Template description"
+        }
+    </script>
+
+    <!-- Open Graph -->
+    <meta property="og:site_name" content="Nome do Site">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="//template.com.br">
+    <meta property="og:title" content="Template Title">
+    <meta property="og:description" content="Template description">
+    <meta property="og:image" content="//template.com.br/img.png">
+    <meta property="og:image:alt" content="Descrição da imagem">
+
+    <!-- X Twitter -->
+    <meta name="twitter:title" content="Template Title">
+    <meta name="twitter:description" content="Template description">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="//template.com.br/img.png">
+    <meta name="twitter:creator" content="@template_user">
+    <meta name="twitter:site" content="@template_user">
+    <meta name="twitter:label1" content="Categoria">
+    <meta name="twitter:data1" content="Tecnologia">
+
+    <!-- Styles -->
+    <style>
+        /**
+         * CSS crítico
+         * /
+    </style>
+    <link rel="preload" href="assets/css/style.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/css/style.css"></noscript>
+
+    <!-- Browser Support -->
+    <script data-notranspile="true">
+        (function(){
+            function isModern(){
+                try{
+                    return  typeof (()=>{1**1})==='function' &&
+                            window.CSS.supports('--t','#000') &&
+                            document.createElement("canvas").toDataURL("image/webp").indexOf("data:image/webp")===0;
+                }catch(e){
+                    return false;
+                }
+            }
+            if(!isModern()){
+                var script = document.createElement('script');
+                script.setAttribute('src','assets/js/legacy.js');
+                script.setAttribute('data-notranspile',true);
+                document.getElementsByTagName("head")[0].appendChild(script);
+            }
+        })()
+    </script>
+</head>
+<body>
+    <!--Main Content -->
+    <main>
+        
+    </main>
+
+    <!-- Scripts -->
+    <script defer src="assets/js/script.js"></script>
+
+    <!-- Load CSS file for legacy Browsers -->
+    <script defer data-notranspile="true">
+        (function(){
+            if(!window.CSS.supports('grid')){
+                var css = document.createElement('link');
+                css.setAttribute('href', 'assets/css/legacy.css');
+                css.setAttribute('rel', 'stylesheet')
+                document.getElementsByTagName("head")[0].appendChild(css);
+            }
+        })()
+    </script>
+
+    <!-- Statistics -->
+    <script src="assets/js/stats.js" defer></script>
+    <noscript><iframe src="assets/misc/stats.html" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+</body>
+</html>
